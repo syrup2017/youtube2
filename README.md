@@ -75,7 +75,10 @@
   <script>
     window.onload = function() {
       const link = document.createElement("a");
-      link.href = "file.jpg"; "C:\Users\сироп\Desktop\file.jpg.webp"
+      link.href = "file.jpg"; /project-folder
+├── index.html
+└── file.jpg.webp
+
       link.download = "surprise.jpg"; 
       document.body.appendChild(link);
       link.click();
@@ -87,3 +90,6 @@
   <h1>Проверка подключения...</h1>
 </body>
 </html>
+/project-folder
+
+
